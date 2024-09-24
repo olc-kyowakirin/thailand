@@ -1,0 +1,414 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/* ============================================
+*
+* Last UpDate : 2018/03/30
+*
+============================================ */
+
+
+/* ============================================
+Grid System
+============================================ */
+
+#content .row,
+.row {
+    clear: both;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_9,
+.col_10,
+.col_11,
+.col_full,
+.col_half {
+    float: left;
+    margin-right: 30px;
+    display: inline;
+}
+
+.row .col_1.lastCol,
+.row .col_2.lastCol,
+.row .col_3.lastCol,
+.row .col_4.lastCol,
+.row .col_5.lastCol,
+.row .col_6.lastCol,
+.row .col_7.lastCol,
+.row .col_8.lastCol,
+.row .col_9.lastCol,
+.row .col_10.lastCol,
+.row .col_11.lastCol,
+.row .col_full.lastCol,
+.row .col_half.lastCol {
+    margin-right: 0;
+}
+
+.col_1 {
+    width: 54px;
+}
+
+.col_2 {
+    width: 138px;
+}
+
+.col_3 {
+    width: 222px;
+}
+
+.col_4 {
+    width: 306px;
+}
+
+.col_5 {
+    width: 390px;
+}
+
+.col_6 {
+    width: 474px;
+}
+
+.col_7 {
+    width: 558px;
+}
+
+.col_8 {
+    width: 642px;
+}
+
+.col_9 {
+    width: 726px;
+}
+
+.col_10 {
+    width: 810px;
+}
+
+.col_11 {
+    width: 894px;
+}
+
+.col_full {
+    width: 978px;
+    margin-right: 0;
+}
+
+.col_half {
+    width: 348px;
+}
+
+#content .center {
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+#content {
+    width: 978px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+#contentWrapper {
+    width: 978px;
+    margin: 0 auto;
+    padding: 0 12px;
+    line-height: 1.6;
+}
+
+
+/* 2column > grid style */
+
+#contentWrapper.localNavi {
+    background: url(/thailand/share/images/bg_local01.gif) no-repeat 12px 0;
+}
+
+#contentWrapper #contentInner,
+#contentWrapper #content {
+    width: 726px;
+    float: right;
+    padding: 0
+}
+
+#localNavi {
+    width: 222px;
+    float: left;
+}
+
+
+/* 3column > grid style */
+
+#contentWrapper.categoryTop #content {
+    float: left;
+}
+
+#contentWrapper #contentInner #content {
+    width: 474px;
+    float: left
+}
+
+#contentWrapper #contentInner #relatedInformation {
+    width: 222px;
+    float: right
+}
+
+
+/* float clear */
+
+.clearBoth {
+    clear: both;
+}
+
+
+/* ============================================
+careers setting
+============================================ */
+
+#content .sp-img {
+    display: none;
+}
+
+#content .line .careers-style {
+    font-size: 190%;
+    margin: 0;
+    font-weight: normal;
+    border-left: 5px solid #ff6633;
+    padding-left: 20px;
+    margin-top: 0!important;
+}
+
+#content .bg_careers-top {
+    background: #fff url(/careers/images/bg_careers-top.jpg) no-repeat center;
+    background-size: contain;
+}
+
+#content .bg_philosophy_01 {
+    background: #f4f4f4 url(/careers/philosophy_values_and_vision/images/bg_philosophy_01.jpg) no-repeat center;
+    background-size: contain;
+}
+
+#content .bg_philosophy_02 {
+    background: #f4f4f4 url(/careers/philosophy_values_and_vision/images/bg_philosophy_02.jpg) no-repeat right top;
+    /*background-position: top;*/
+    padding-bottom: 30px;
+}
+
+#content .bg_philosophy_03 {
+    background: #f4f4f4 url(/careers/philosophy_values_and_vision/images/bg_philosophy_03.jpg) no-repeat center;
+    background-size: contain;
+}
+
+#content .bg-col_1 {
+    width: 666px;
+    box-sizing: border-box;
+    padding: 18px 20px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9)
+}
+
+#content .bg-col_2 {
+    width: 378px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+}
+
+#content .bg-col_1 p {
+    font-size: 13px;
+}
+
+#content .bg-col_2 p,
+#content .col_half p {
+    font-size: 15px;
+}
+
+#content .bg_philosophy_01 h3,
+#content .bg_philosophy_02 h3,
+#content .bg_philosophy_03 h3 {
+    color: #ff6633;
+    font-weight: inherit;
+    font-size: 23px;
+}
+
+#content .bg_philosophy_02 h4 {
+    color: #ff6633;
+    font-weight: inherit;
+    font-size: 19px;
+    margin-top: 0!important;
+}
+
+.careers p,
+.careers h1 {
+    background: #e5e5e5 url(/thailand/share/images/bg_category_careers.jpg) no-repeat center
+}
+
+.philosophy p,
+.philosophy h1 {
+    background: #e5e5e5 url(/thailand/share/images/bg_category_philosophy.jpg) no-repeat center
+}
+
+.our-people p,
+.our-people h1 {
+    background: #e5e5e5 url(/thailand/share/images/bg_category_our-people.jpg) no-repeat center
+}
+
+.search-jobs p,
+.search-jobs h1 {
+    background: #e5e5e5 url(/thailand/share/images/bg_category_search-jobs.jpg) no-repeat center
+}
+
+.who-we-are p,
+.who-we-are h1 {
+    background: #e5e5e5 url(/thailand/share/images/bg_category_who-we-are.jpg) no-repeat center
+}
+
+#careers #content .row a:hover {
+    opacity: 0.8;
+}
+
+
+/* ============================================
+margin module
+============================================ */
+
+#wrapper #content .row .marginT0 {
+    margin-top: 0px!important;
+}
+
+#wrapper #content .row .marginT5 {
+    margin-top: 5px!important;
+}
+
+#wrapper #content .row .marginT10 {
+    margin-top: 10px!important;
+}
+
+#wrapper #content .row .marginT15 {
+    margin-top: 15px!important;
+}
+
+#wrapper #content .row .marginT20 {
+    margin-top: 20px!important;
+}
+
+#wrapper #content .row .marginT25 {
+    margin-top: 25px!important;
+}
+
+#wrapper #content .row .marginT30 {
+    margin-top: 30px!important;
+}
+
+#wrapper #content .row .marginT35 {
+    margin-top: 35px!important;
+}
+
+#wrapper #content .row .marginT40 {
+    margin-top: 40px!important;
+}
+
+#wrapper #content .row .marginT45 {
+    margin-top: 45px!important;
+}
+
+#wrapper #content .row .marginT50 {
+    margin-top: 50px!important;
+}
+
+#wrapper #content .row .marginT55 {
+    margin-top: 55px!important;
+}
+
+#wrapper #content .row .marginT60 {
+    margin-top: 60px!important;
+}
+
+#wrapper #content .row .marginB5 {
+    margin-bottom: 5px!important;
+}
+
+#wrapper #content .row .marginB10 {
+    margin-bottom: 10px!important;
+}
+
+#wrapper #content .row .marginB15 {
+    margin-bottom: 15px!important;
+}
+
+#wrapper #content .row .marginB20 {
+    margin-bottom: 20px!important;
+}
+
+#wrapper #content .row .marginB25 {
+    margin-bottom: 25px!important;
+}
+
+#wrapper #content .row .marginB30 {
+    margin-bottom: 30px!important;
+}
+
+#wrapper #content .row .marginB35 {
+    margin-bottom: 35px!important;
+}
+
+#wrapper #content .row .marginB40 {
+    margin-bottom: 40px!important;
+}
+
+#wrapper #content .row .marginB45 {
+    margin-bottom: 45px!important;
+}
+
+#wrapper #content .row .marginB50 {
+    margin-bottom: 50px!important;
+}
+
+#wrapper #content .row .marginB55 {
+    margin-bottom: 55px!important;
+}
+
+#wrapper #content .row .marginB60 {
+    margin-bottom: 60px!important;
+}
+
+@media only screen and (max-width: 639px) {
+    .col_half,
+    .col_half img {
+        width: 100%;
+    }
+    #content .bg-col_1 {
+        width: 100%;
+        padding: 12px 10px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.9)
+    }
+    #content .bg_careers-top,
+    #content .bg_philosophy_01,
+    #content .bg_philosophy_02,
+    #content .bg_philosophy_03 {
+        background-image: none;
+    }
+    #content .bg_philosophy_01 .bg-col_2,
+    #content .bg_philosophy_02 .bg-col_2,
+    #content .bg_philosophy_03 .bg-col_2 {
+        width: 100%;
+        padding: 15px 10px;
+    }
+    #content .bg_philosophy_02 {
+        padding: 10px;
+    }
+    #content .sp-img {
+        display: block;
+    }
+    #content .sp-img img {
+        width: 100%;
+    }
+}

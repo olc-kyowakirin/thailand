@@ -1,0 +1,25 @@
+<script src="/thailand/share/js/jquery-3.3.1.min.js"></script>
+<script src="/thailand/share/js/outBoundModal.js" charset="UTF-8"></script>
+<script src="/thailand/share/js/run.js"></script>
+<script src="/thailand/share/js/search.js" defer></script>
+
+<script src="/thailand/share/js/kkc-animation.js" defer></script>
+
+<!--JS Cookie-->
+<script>
+    $(document).ready(function () {
+        var fvCookie = document.getElementById('fv-cookie'),
+            fvButton = document.getElementById('fv-cookie-button');
+        if (!document.cookie.match(new RegExp('(^| )fv-cookie=([^;]+)'))) {
+            fvCookie.style.display = 'block';
+        }
+        fvButton.addEventListener('click', function () {
+            var date = new Date();
+            date.setTime(date.getTime() + (30 * 24 * 60 * 60 * 1000));
+            document.cookie = 'fv-cookie=true; expires=' + date + '; path=/';
+            fvCookie.style.display = 'none';
+        });
+    });
+</script>
+<!--JS Cookie-->
+

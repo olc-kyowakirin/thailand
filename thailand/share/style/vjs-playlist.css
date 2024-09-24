@@ -1,0 +1,125 @@
+.vjs-playlist {
+	padding: 0px;
+}
+body #content ol.vjs-playlist {
+	margin: 0;
+}
+.vjs-mouse.vjs-playlist {
+	font-size: 10px;
+	min-width: 240px;
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 7px 7px 0 7px;
+}
+.bc-iframe .video_parent {
+	padding-top: 56.25%;
+}
+.bc-iframe .video_parent video {
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+.video-js .vjs-dock-text {
+	display: none;
+}
+.vjs-mouse.vjs-playlist .vjs-playlist-thumbnail {
+	height: 46px;
+	font-size: 13px;
+	margin-right: 7px;
+	width: 72px;
+}
+
+
+
+.vjs-mouse.vjs-playlist .vjs-playlist-item {
+	height: 60px;
+	margin-bottom: 7px;
+}
+.vjs-playlist .vjs-selected .vjs-playlist-thumbnail:before {
+	height: 46px;
+	line-height: 46px;
+	width: 72px;
+}
+.vjs-mouse.vjs-playlist .vjs-selected .vjs-playlist-thumbnail:before {
+	height: 46px;
+	line-height: 46px;
+	width: 72px;
+	font-size: 10px;
+}
+.vjs-mouse.vjs-playlist time {
+	display: none;
+}
+.vjs-mouse.vjs-playlist .vjs-playlist-description {
+	height: auto;
+}
+#content .line p.vjs-playlist-description {
+	margin: 0;
+}
+.vjs-mouse.vjs-playlist .vjs-playlist-item:focus .vjs-playlist-thumbnail:before, .vjs-mouse.vjs-playlist .vjs-playlist-item:hover .vjs-playlist-thumbnail:before {
+	height: 24px;
+	left: 17px;
+	line-height: 26px;
+	top: 12px;
+	width: 36px;
+}
+.bc-iframe .vjs-playlist-enabled {
+	width: 67%;
+	position: absolute;
+	top: 0;
+}
+.bc-iframe .vjs-playlist {
+	width: 30%;
+}
+
+.bc-iframe .vjs-playlist .vjs-playlist-name {
+	height:15px;
+}
+
+@media (max-width: 1366px) {
+	.bc-iframe .vjs-playlist{
+		top:10px;
+		/*right:10px;*/
+		height:auto;
+	}
+	
+	.bc-iframe .vjs-playlist .vjs-playlist-thumbnail {
+		height: 46px;
+		font-size: 10px;
+		margin-right: 7px;
+		width: 72px;
+	}
+}
+
+@media (max-width: 640px) {
+	.bc-iframe .video_parent {
+		padding-top: 0%;
+	}
+	.video-js .vjs-tech, .bc-iframe .video_parent video {
+		position: relative;
+	}
+	.bc-iframe, .bc-iframe .bc-player-BkPGFdCH_default, .bc-iframe body {
+		height: auto;
+	}
+	
+	.bc-iframe .vjs-playlist {
+		top:0;
+		right:0;
+		display: block;
+		position: relative;
+		padding:7px 7px 0 7px;
+	}
+
+
+	.bc-iframe .vjs-playlist-enabled {
+		width: 100%;
+		position: relative;
+	}
+	.bc-iframe .vjs-playlist {
+		width: 100%;
+	}
+	
+
+}
